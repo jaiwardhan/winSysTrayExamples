@@ -1,0 +1,13 @@
+# python using pyinstaller
+> install pyinstaller with pip in windows
+python -m pip install pyinstaller
+
+> build the project entrypoint python with pyinstller after ensuring its running fine
+python -m PyInstaller notif.py  #notice the case
+
+> this will create a dist folder with the project and the name notif.exe to be executed along
+> wiht a bunch of dll files necessary
+
+
+# balloontip
+python balloonTip.py #install deps if required
