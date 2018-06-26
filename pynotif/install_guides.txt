@@ -11,3 +11,6 @@ python -m PyInstaller notif.py  #notice the case
 
 # balloontip
 python balloonTip.py #install deps if required
+
+# build with cx_freeze
+python setup.py bdist_msi
